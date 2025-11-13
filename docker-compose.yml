@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  smith-codex-acp:
+    image: th3b0yr0x/smith-codex-acp:latest
+    container_name: smith-codex-acp
+    ports:
+      - "8002:8080"
+    volumes:
+      - /path/to/workdir:/workspace # path the agent should have access to (path to your code's root directory, for example)
+      - /path/to/codex/config:/app/codex-config # path you keep your codex config.toml file
+    restart: unless-stopped
