@@ -8,7 +8,7 @@ Smith is a Mostly Harmless Tools project that streamlines everyday IntelliJ-base
 - Seamless integration with IntelliJ Platform IDEs.
 
 ## Installation
-1. Visit the JetBrains Marketplace page (coming soon).
+1. [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/29005-smith).
 2. Restart the IDE and open the Smith tool window on the right side panel.
 
 ## Licensing
